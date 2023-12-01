@@ -1,0 +1,90 @@
+{
+    "code": 200,
+    "message": "Success",
+    "students": [
+        {
+            "user_id": 16,
+            "registration_number": "MIT2022E00002",
+            "name": "Pranali",
+            "email": "pranalijadhav340@gmail.com",
+            "user_name": "Pranali",
+            "user_username": "Pranali3010042",
+            "contact_number": "8850116040"
+        },
+        {
+            "user_id": 18,
+            "registration_number": "MIT2022E00004",
+            "name": "Rushikesh",
+            "email": "rushikeshnarwade9995@gmail.com",
+            "user_name": "Rushikesh",
+            "user_username": "Rushikesh9865844",
+            "contact_number": "9881818696"
+        }  
+    ],  
+    "class": {
+        "master_batch_id": 9,
+        "master_batch_name": "C2-PGDM-SEM 1",
+        "start_date": 1677628800,
+        "end_date": 1740700800,
+        "class": [
+            {
+                "class_id": 19,
+                "class_name": "Indian Economy and Policy",
+                "class_start": 1677609000,
+                "class_end": 1740681000,
+                "batch_class_count": 0
+            },
+            {
+                "class_id": 20,
+                "class_name": "Business Communication",
+                "class_start": 1677609000,
+                "class_end": 1740681000,
+                "batch_class_count": 0
+            },
+            {
+                "class_id": 21,
+                "class_name": "Accounting for Managers",
+                "class_start": 1677609000,
+                "class_end": 1740681000,
+                "batch_class_count": 0
+            },
+            {
+                "class_id": 22,
+                "class_name": "Marketing Management",
+                "class_start": 1677609000,
+                "class_end": 1740681000,
+                "batch_class_count": 0
+            },
+            {
+                "class_id": 23,
+                "class_name": "Legal and Business Environment (Micro and Macro)",
+                "class_start": 1677609000,
+                "class_end": 1740681000,
+                "batch_class_count": 0
+            },
+            {
+                "class_id": 45,
+                "class_name": "Principles of Management",
+                "class_start": 1677609000,
+                "class_end": 1740681000,
+                "batch_class_count": 0
+            }
+        ]
+    },   
+    "page_context": {
+        "page": 1,
+        "per_page": 3000,
+        "has_more_page": false,
+        "total_rows": 1092,
+        "sort_by": "U.created_at",
+        "sort_order": "A"
+    }
+}
+
+
+
+
+
+
+
+

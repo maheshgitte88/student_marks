@@ -1,0 +1,125 @@
+
+{
+    "code": 200,
+    "message": "Success",
+    "class_report": {
+        "column_headers": [
+            [
+                "13",
+                "Assignment 1",
+                5
+            ],
+            [
+                "14",
+                "Assignment 2",
+                5
+            ],
+            [
+                -1,
+                "Grand Total",
+                -1
+            ]
+        ],
+        "title_colspan": [
+            {
+                "id": "103",
+                "name": "Assignment 1",
+                "colspan": 1
+            },
+            {
+                "id": "104",
+                "name": "Assignment 2",
+                "colspan": 1
+            },
+            {
+                "name": "",
+                "colspan": 1
+            }
+        ],
+        "points": [
+            "5",
+            "5",
+            10
+        ],
+        "user_marks": {
+            "1457": [
+                {
+                    "gr": "66.66999816894531",
+                    "mk": "20",
+                    "tm": "30",
+                    "pt": "3.3299999237060547",
+                    "tpt": "5",
+                    "atmpt": "1",
+                    "pssd": "1",
+                    "tttm": "945"
+                },
+                {
+                    "gr": "53.33000183105469",
+                    "mk": "16",
+                    "tm": "30",
+                    "pt": "2.6600000858306885",
+                    "tpt": "5",
+                    "atmpt": "1",
+                    "pssd": "1",
+                    "tttm": "902"
+                },
+                {
+                    "gr": 60,
+                    "mk": null,
+                    "tm": null,
+                    "pt": 5.990000009536743,
+                    "tpt": 10,
+                    "atmpt": 2,
+                    "pssd": 2,
+                    "tttm": 1847
+                }
+            ],
+            "71": [
+                {
+                    "gr": "60",
+                    "mk": "18",
+                    "tm": "30",
+                    "pt": "3",
+                    "tpt": "5",
+                    "atmpt": "1",
+                    "pssd": "1",
+                    "tttm": "716"
+                },
+                {
+                    "gr": "60",
+                    "mk": "18",
+                    "tm": "30",
+                    "pt": "3",
+                    "tpt": "5",
+                    "atmpt": "1",
+                    "pssd": "1",
+                    "tttm": "1225"
+                },
+                {
+                    "gr": 60,
+                    "mk": null,
+                    "tm": null,
+                    "pt": 6,
+                    "tpt": 10,
+                    "atmpt": 2,
+                    "pssd": 2,
+                    "tttm": 1941
+                }
+            ]
+
+        },
+        "users": [
+            [
+                1457,
+                "Harsh",
+                "Harsh5916715"
+            ],
+            [
+                71,
+                "PARESH",
+                "PARESH7873771"
+            ]
+        ]
+  
+    }
+}
