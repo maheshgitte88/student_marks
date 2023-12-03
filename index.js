@@ -1,13 +1,15 @@
 const express = require('express');
 const app = express();
+const cors = require('cors');
 const Course_Subject_routes = require('./routes/Course_Subject');
 const Batch_Routes=require('./routes/Batch')
 const Class_Routes=require('./routes/Class')
 const Student_Routes=require('./routes/Student')
 const Marks_Routes=require("./routes/Marks")
 const sequelize = require('./config');
+app.use(cors());
 app.use(express.json());
-
+// app.use(cors({ origin: 'http://localhost:3000' }));
 
 
 sequelize.sync().then(() => {

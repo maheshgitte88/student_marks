@@ -1,9 +1,24 @@
 const { DataTypes } = require('sequelize');
 const sequelize = require('../config');
+// const AllStudents = require('./All_Students');
 
 const FlattenedDataModel = sequelize.define('FlattenedDataModel', {
-    userId: {
+    user_id: {
         type: DataTypes.INTEGER,
+        allowNull: false,
+    },
+    name: {
+        type: DataTypes.STRING,
+    },
+    userUsername: {
+        type: DataTypes.STRING,
+    },
+    subject_id: {
+        type: DataTypes.INTEGER,
+        allowNull: false,
+    },
+    subject_name: {
+        type: DataTypes.STRING,
         allowNull: false,
     },
     gr: {
@@ -30,12 +45,11 @@ const FlattenedDataModel = sequelize.define('FlattenedDataModel', {
     tttm: {
         type: DataTypes.STRING,
     },
-    name: {
-        type: DataTypes.STRING,
-    },
-    userUsername: {
-        type: DataTypes.STRING,
-    },
 });
+
+// FlattenedDataModel.belongsTo(AllStudents, {
+//     foreignKey: 'user_id',
+//     onDelete: 'CASCADE',
+// });
 
 module.exports = FlattenedDataModel;
