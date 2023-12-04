@@ -83,19 +83,19 @@ const StudentSubjectData = async (data) => {
         });
       }
 
-      for (const student of students) {
-        await StudentModel.create({
-          user_id: student.user_id,
-          registration_number: student.registration_number,
-          name: student.name,
-          email: student.email,
-          program_id: master_batch_id,
-          batch_id: class_id,
-          user_name: student.user_name,
-          user_username: student.user_username,
-          contact_number: student.contact_number,
-        });
-      }
+      // for (const student of students) {
+      //   await StudentModel.create({
+      //     user_id: student.user_id,
+      //     registration_number: student.registration_number,
+      //     name: student.name,
+      //     email: student.email,
+      //     program_id: master_batch_id,
+      //     batch_id: class_id,
+      //     user_name: student.user_name,
+      //     user_username: student.user_username,
+      //     contact_number: student.contact_number,
+      //   });
+      // }
     }
 
     console.log('Data saved successfully.');

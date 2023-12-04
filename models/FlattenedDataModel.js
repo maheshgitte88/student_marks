@@ -1,17 +1,12 @@
 const { DataTypes } = require('sequelize');
-const sequelize = require('../config');
+const sequelize = require('../config'); // Update with your database configuration
 // const AllStudents = require('./All_Students');
 
 const FlattenedDataModel = sequelize.define('FlattenedDataModel', {
-    user_id: {
+    id: {
         type: DataTypes.INTEGER,
-        allowNull: false,
-    },
-    name: {
-        type: DataTypes.STRING,
-    },
-    userUsername: {
-        type: DataTypes.STRING,
+        primaryKey: true,
+        autoIncrement: true,
     },
     subject_id: {
         type: DataTypes.INTEGER,
@@ -21,35 +16,33 @@ const FlattenedDataModel = sequelize.define('FlattenedDataModel', {
         type: DataTypes.STRING,
         allowNull: false,
     },
-    gr: {
-        type: DataTypes.FLOAT,
+    user_id: {
+        type: DataTypes.INTEGER,
+        allowNull: false,
     },
-    mk: {
+    name: {
         type: DataTypes.STRING,
+        allowNull: false,
     },
-    tm: {
+    userUsername: {
         type: DataTypes.STRING,
+        allowNull: false,
     },
-    pt: {
-        type: DataTypes.STRING,
+    assignments: {
+        type: DataTypes.JSON, // Assuming assignments is an array of objects
+        allowNull: false,
     },
-    tpt: {
-        type: DataTypes.STRING,
+    createdAt: {
+        type: DataTypes.DATE,
+        allowNull: false,
+        defaultValue: sequelize.literal('CURRENT_TIMESTAMP'),
     },
-    atmpt: {
-        type: DataTypes.STRING,
-    },
-    pssd: {
-        type: DataTypes.STRING,
-    },
-    tttm: {
-        type: DataTypes.STRING,
+    updatedAt: {
+        type: DataTypes.DATE,
+        allowNull: false,
+        defaultValue: sequelize.literal('CURRENT_TIMESTAMP'),
     },
 });
 
-// FlattenedDataModel.belongsTo(AllStudents, {
-//     foreignKey: 'user_id',
-//     onDelete: 'CASCADE',
-// });
-
 module.exports = FlattenedDataModel;
+
